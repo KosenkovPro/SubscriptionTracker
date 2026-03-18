@@ -11,7 +11,7 @@
     <string name="delete_title">Удалить «%1$s»?</string>
     <string name="delete_confirm">Удалить</string>
     <string name="cancel">Отмена</string>
-    <string name="add_sub" tools:ignore="MissingTranslation">Добавить подписку</string>
+    <string name="add_sub">Добавить подписку</string>
     <!-- Экспорт/Импорт -->
     <string name="export_empty">Нет данных для экспорта</string>
     <string name="export_success">Экспортировано %1$d подписок</string>
@@ -63,5 +63,5 @@
     <string name="about_email_label">Почта</string>
     <string name="about_email">i.kosenkov77@yandex.ru</string>
     <string name="about_version_label">Версия</string>
-    <string name="about_version">1.1</string>
+    <string name="about_version" translatable="false">1.2</string>
 </resources>
