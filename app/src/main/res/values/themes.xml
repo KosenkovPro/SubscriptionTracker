@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:textColorPrimary">#F2F2F7</item>
+        <item name="android:textColorSecondary">#8E8E93</item>
+        <item name="actionBarStyle">@style/AppActionBar</item>
+    </style>
+
+    <style name="AppActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/surface</item>
+        <item name="titleTextStyle">@style/AppActionBarTitle</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="AppActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#F2F2F7</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+/.idea/
+/.gradle/
+/build/
+/gradle/
+/app/build/
+/app/release/

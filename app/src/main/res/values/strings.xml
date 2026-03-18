@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Отслеживание подписок</string>
+    <!-- Меню -->
+    <string name="menu_export">⬆ Экспорт JSON</string>
+    <string name="menu_import">⬇ Импорт JSON</string>
+    <string name="menu_language">🌐 Язык</string>
+    <string name="menu_about">ℹ️ Об приложении</string>
+    <!-- Главный экран -->
+    <string name="empty_list">Нет подписок.\nНажмите + чтобы добавить</string>
+    <string name="delete_title">Удалить «%1$s»?</string>
+    <string name="delete_confirm">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="add_sub" tools:ignore="MissingTranslation">Добавить подписку</string>
+    <!-- Экспорт/Импорт -->
+    <string name="export_empty">Нет данных для экспорта</string>
+    <string name="export_success">Экспортировано %1$d подписок</string>
+    <string name="import_title">Импорт (%1$d подписок)</string>
+    <string name="import_question">Как импортировать данные?</string>
+    <string name="import_merge">Добавить к существующим</string>
+    <string name="import_replace">Заменить все</string>
+    <string name="import_merged">Добавлено %1$d подписок</string>
+    <string name="import_replaced">Импортировано %1$d подписок</string>
+    <string name="import_empty">Файл пуст</string>
+    <string name="error_export">Ошибка экспорта: %1$s</string>
+    <string name="error_import">Ошибка импорта: %1$s</string>
+    <string name="error_title">Ошибка</string>
+    <string name="ok">OK</string>
+    <!-- Форма добавления -->
+    <string name="title_add">Новая подписка</string>
+    <string name="title_edit">Редактировать</string>
+    <string name="hint_name">Название</string>
+    <string name="hint_start">Дата начала</string>
+    <string name="hint_trial_end">Конец пробного периода</string>
+    <string name="hint_price">Стоимость (₽)</string>
+    <string name="billing_period">Период оплаты</string>
+    <string name="monthly">В месяц</string>
+    <string name="yearly">В год</string>
+    <string name="save">Сохранить</string>
+    <string name="saved">Сохранено</string>
+    <string name="err_name">Введите название</string>
+    <string name="err_price_empty">Введите стоимость</string>
+    <string name="err_price_invalid">Некорректная сумма</string>
+    <!-- Детали -->
+    <string name="status_trial">✅ Пробный период активен</string>
+    <string name="status_paid">💳 Активная платная подписка</string>
+    <string name="trial_expired">Бесплатный период закончился</string>
+    <string name="days_remaining">Осталось дней: %1$d</string>
+    <string name="day_last">Остался 1 день!</string>
+    <string name="btn_edit">Редактировать</string>
+    <string name="btn_delete">Удалить</string>
+    <string name="label_start">Начало:  %1$s</string>
+    <string name="label_trial_end">Конец пробного:  %1$s</string>
+    <string name="label_price">Стоимость:  %1$s</string>
+    <string name="price_monthly">/мес</string>
+    <string name="price_yearly">/год</string>
+    <!-- Язык -->
+    <string name="choose_language">Выберите язык</string>
+    <!-- Об приложении -->
+    <string name="about_title">Об приложении</string>
+    <string name="about_developer_label">Разработчик</string>
+    <string name="about_developer">Косенков Иван Игоревич</string>
+    <string name="about_email_label">Почта</string>
+    <string name="about_email">i.kosenkov77@yandex.ru</string>
+    <string name="about_version_label">Версия</string>
+    <string name="about_version">1.1</string>
+</resources>
